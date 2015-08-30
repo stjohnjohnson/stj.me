@@ -1,0 +1,22 @@
+# Site settings
+title: St. John Johnson
+email: st.john.johnson@gmail.com
+description: >
+  The personal website of St. John Johnson - Developer, Gamer, Person, Thingy.
+baseurl: ""
+url: http://stj.me
+
+# Social configuration
+twitter_username: stjohnjohnson
+github_username: stjohnjohnson
+linkedin_username: stjohnjohnson
+# steam_username: caffeinejunkie
+
+# Post settings
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - jekyll-timeago
