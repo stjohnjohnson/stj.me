@@ -1,5 +1,7 @@
 # stj.me
 
+[![wercker status](https://app.wercker.com/status/24650efb0fd8d95cf920b12927980244/s "wercker status")](https://app.wercker.com/project/bykey/24650efb0fd8d95cf920b12927980244)
+
 This is my personal website/blog built on Jekyll.
 
 ## Setup
