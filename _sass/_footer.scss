@@ -1,0 +1,38 @@
+
+.site-footer {
+	background-color: #202020;
+	padding-bottom: 10px;
+	padding-top: 50px;
+	border-top: 40px solid #F4F3EF;
+
+	.crazy-media {
+		color: #8E8C84;
+		padding-top: 0px;
+		padding-bottom: 20px;
+
+		ul {
+			text-align: center;
+			li {
+				display: inline-block;
+				padding: 0 5px;
+			}
+		}
+
+		a {
+			svg {
+			    width: 32px;
+			    height: 32px;
+				path {
+					fill: $white-color;
+				}
+			}
+		}
+		a:hover {
+			svg {
+				path {
+					fill: $highlight-color
+				}
+			}
+		}
+	}
+}
