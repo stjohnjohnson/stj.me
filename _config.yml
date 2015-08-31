@@ -20,3 +20,12 @@ markdown: kramdown
 
 gems:
   - jekyll-timeago
+
+exclude:
+  - config.ru
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - Procfile
+  - Rakefile
+  - Readme.md
