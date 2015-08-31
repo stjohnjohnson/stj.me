@@ -29,3 +29,5 @@ exclude:
   - Procfile
   - Rakefile
   - Readme.md
+  - app.json
+  - wercker.yml
