@@ -1,0 +1,12 @@
+{
+  "name": "St. John's Blog",
+  "description": "Simple Jekyll blog for my personal website.",
+  "website": "http://stj.me/",
+  "repository": "https://github.com/stjohnjohnson/stj.me",
+  "env": {
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    }
+  }
+}
