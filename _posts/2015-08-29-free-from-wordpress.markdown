@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-08-29
 title: Free from Wordpress
+date: 2015-08-29
 ---
 Well, here I am.  Wordpress-less.
 
