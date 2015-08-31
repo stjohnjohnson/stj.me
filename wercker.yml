@@ -5,7 +5,12 @@ build:
     # Install gem dependencies
     - bundle-install
 
-    # Generate site, no drafts in here
+    # Run some basic health checks
     - script:
-        name: generate sites
+        name: health check
+        code: bundle exec jekyll doctor --trace
+
+    # Generate site locally
+    - script:
+        name: generate site
         code: bundle exec jekyll build --trace

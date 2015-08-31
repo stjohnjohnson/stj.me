@@ -1,12 +1,20 @@
 source 'https://rubygems.org'
 ruby '2.2.3'
 
-gem 'jekyll'
-gem 'jekyll-timeago'
+# JavaScript Exec tool
 gem 'therubyracer'
 
-gem 'kramdown'
-gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git'
+# Jekyll and plugins
+gem 'jekyll'
+gem 'jekyll-timeago'
+gem 'jekyll-gist'
 
-gem 'rake'
+# Markdown renderer
+gem 'kramdown'
+
+# Hosting for Heroku
+gem 'rack-jekyll', :git => 'https://github.com/adaoraul/rack-jekyll.git'
 gem 'puma'
+
+# Makefile support :P
+gem 'rake'

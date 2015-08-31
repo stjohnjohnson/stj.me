@@ -13,7 +13,7 @@ $ bundle install
 
 Then get the site up and running by starting Jekyll:
 ```
-$ jekyll serve -w
+$ rake local
 Configuration file: /stj.me/_config.yml
             Source: /stj.me
        Destination: /stj.me/_site
