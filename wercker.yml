@@ -16,17 +16,3 @@ build:
     - script:
         name: generate sites
         code: bundle exec jekyll build --trace
-
-    # Copy code to output folder
-    - script:
-        name: copy site output
-        code: |-
-          # Copy site to output directory
-          cp --recursive _site/* "$WERCKER_OUTPUT_DIR/"
-
-deploy:
-  steps:
-    - heroku-deploy:
-        key-name: $HEROKU_KEY_PAIR
-        user: $HEROKU_USER
-        app-name: $HEROKU_APP_NAME
