@@ -5,13 +5,6 @@ build:
     # Install gem dependencies
     - bundle-install
 
-    # Install node.js
-    - script:
-        name: install node
-        code: |-
-          curl -sL https://deb.nodesource.com/setup_0.12 | bash -
-          apt-get install -y nodejs
-
     # Generate site, no drafts in here
     - script:
         name: generate sites
