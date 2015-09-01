@@ -47,6 +47,6 @@ Awesome!!  And I got my build time to under a minute.
 
 Next I need to figure out deployments.
 
-[wercker]: https://wercker.com
+[wercker]: http://wercker.com
 [jekyll]: http://jekyllrb.com
 [therubyracer]: https://github.com/cowboyd/therubyracer

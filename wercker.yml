@@ -14,3 +14,8 @@ build:
     - script:
         name: generate site
         code: bundle exec jekyll build --trace
+
+    # Test for problems
+    - script:
+        name: validate html
+        code: bundle exec htmlproof ./_site

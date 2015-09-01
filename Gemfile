@@ -18,3 +18,9 @@ gem 'puma'
 
 # Makefile support :P
 gem 'rake'
+
+# Local building
+gem 'octopress'
+
+# Testing
+gem 'html-proofer'

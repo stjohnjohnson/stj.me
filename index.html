@@ -8,13 +8,13 @@ layout: default
     {% for post in site.posts %}
       <li>
         <h2 class="post-link">
-          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a href="{{ post.url }}">{{ post.title }}</a>
         </h2>
         <span class="post-meta">
           <abbr title="{{ post.date | date: "%b %-d, %Y %H:%m" }}">{{ post.date | timeago }}</abbr>
         </span>
         {{ post.excerpt }}
-        <a class="post-more" href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+        <a class="post-more" href="{{ post.url }}">Read more...</a>
       </li>
     {% endfor %}
   </ul>
