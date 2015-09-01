@@ -4,7 +4,7 @@ title: Wercker It
 date: 2015-08-30
 ---
 
-So I work on the central Continuous Delivery team at Yahoo.  So it goes without
+I work on the central Continuous Delivery team at Yahoo.  So it goes without
 saying that I want my personal website to have the same awesomeness.
 
 My first thought was, this is [Jekyll][jekyll], so it should be pretty easy to just build
