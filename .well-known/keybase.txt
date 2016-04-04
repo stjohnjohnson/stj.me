@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/stjohnjohnson
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.stj.me
+  * I am stjohnjohnson (https://keybase.io/stjohnjohnson) on keybase.
+  * I have a public key ASDmgLH7AOau1r6Mpd0DamOj9LRff8Cjxf9pWoBmR10Thgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012fea052ad3e152de59d75b3f48d9ab054c541ff2981fde926774db40d1720ed30a",
+            "host": "keybase.io",
+            "kid": "0120e680b1fb00e6aed6be8ca5dd036a63a3f4b45f7fc0a3c5ff695a8066475d13860a",
+            "uid": "eed125f73dd8561402ff698d4a3a5319",
+            "username": "stjohnjohnson"
+        },
+        "service": {
+            "hostname": "www.stj.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.14"
+    },
+    "ctime": 1459799427,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1459799284,
+        "hash": "2091ffeeaa302ef7391b045b11d7e776e57c3c52a830002a1fe30f61aca9707854badce097ef758888ffb43bbd627de18c6d6cf422df6d8401be1b5ec746a7f0",
+        "seqno": 428647
+    },
+    "prev": "29231ef6d527614f1e4e5518e31ded2f2cf18e8c600d1f32e44066aec01bb4fa",
+    "seqno": 20,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg5oCx+wDmrta+jKXdA2pjo/S0X3/Ao8X/aVqAZkddE4YKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMmZlYTA1MmFkM2UxNTJkZTU5ZDc1YjNmNDhkOWFiMDU0YzU0MWZmMjk4MWZkZTkyNjc3NGRiNDBkMTcyMGVkMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTY4MGIxZmIwMGU2YWVkNmJlOGNhNWRkMDM2YTYzYTNmNGI0NWY3ZmMwYTNjNWZmNjk1YTgwNjY0NzVkMTM4NjBhIiwidWlkIjoiZWVkMTI1ZjczZGQ4NTYxNDAyZmY2OThkNGEzYTUzMTkiLCJ1c2VybmFtZSI6InN0am9obmpvaG5zb24ifSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5zdGoubWUiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE0In0sImN0aW1lIjoxNDU5Nzk5NDI3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NTk3OTkyODQsImhhc2giOiIyMDkxZmZlZWFhMzAyZWY3MzkxYjA0NWIxMWQ3ZTc3NmU1N2MzYzUyYTgzMDAwMmExZmUzMGY2MWFjYTk3MDc4NTRiYWRjZTA5N2VmNzU4ODg4ZmZiNDNiYmQ2MjdkZTE4YzZkNmNmNDIyZGY2ZDg0MDFiZTFiNWVjNzQ2YTdmMCIsInNlcW5vIjo0Mjg2NDd9LCJwcmV2IjoiMjkyMzFlZjZkNTI3NjE0ZjFlNGU1NTE4ZTMxZGVkMmYyY2YxOGU4YzYwMGQxZjMyZTQ0MDY2YWVjMDFiYjRmYSIsInNlcW5vIjoyMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxECWNce8kOAGAPklZwCT6ipcBuJUECa8nwf6MNteJQQQ3tjJzvOBZ8+MMKGhqUkzBx76Wr5R8+l5EGnrZFj7EXEDqHNpZ190eXBlIKN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/stjohnjohnson
+
+==================================================================
