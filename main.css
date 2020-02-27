@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,800italic,400,800,700,600);
+
+/**
+ * Reset elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0; 
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  font-weight: 300;
+  color: #202020;
+  background-color: #fbfcfb;
+  -webkit-text-size-adjust: 100%; }
+
+/**
+ * Center the content horizontally
+ */
+.site-content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  background-color: #F4F3EF;
+  height: 100vh;
+  align-items: center;
+}
+
+/**
+ * Black middle bar
+ */
+.site-content .wrapper {
+  padding: 50px 0;
+  color: #F4F3EF;
+  flex-grow: 1;
+  text-align: center;
+  background-color: #202020;
+}
+
+/**
+ * Name/Title
+ */
+.site-content .name-container {
+  max-width: 960px;
+  display: inline-block;
+}
+.name-container .name {
+  text-align: center;
+  font-size: 1050%;
+  font-weight: 700;
+  line-height: 1em;
+  border: 0px solid #FFF;
+  color: #fcfcfc;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid #FFF;
+  text-shadow: 0px 0px 0px #e6e6e6; 
+}
+.name-container .title {
+  color: #fcfcfc;
+  text-align: center;
+  font-size: 150%;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border: 0px solid #FFF; 
+}
+
+/**
+ * Navigation
+ */
+.site-nav {
+  padding-top: 15px; 
+}
+.site-nav ul {
+  text-align: center; 
+}
+.site-nav ul li {
+  display: inline-block;
+  position: relative;
+  list-style: none; 
+}
+.site-nav ul li a {
+  display: inline-block;
+  text-align: center;
+  color: #fcfcfc;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  box-sizing: border-box; 
+}
+.site-nav ul li a:hover {
+  color: #f01111;
+}
