@@ -19,7 +19,7 @@ body {
   line-height: 1.7;
   font-weight: 300;
   color: #202020;
-  background-color: #fbfcfb;
+  background-color: #F4F3EF;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -50,20 +50,29 @@ body {
  */
 .site-content .name-container {
   max-width: 960px;
+  padding: 0 35px;
   display: inline-block;
 }
+
 .name-container .name {
   text-align: center;
-  font-size: 1050%;
+  font-size: 450%;
   font-weight: 700;
   line-height: 1em;
-  border: 0px solid #FFF;
   color: #fcfcfc;
   padding: 0px;
   margin: 0px;
   border: 0px solid #FFF;
   text-shadow: 0px 0px 0px #e6e6e6; 
 }
+
+/* Make the name larger on desktop */
+@media only screen and (min-width: 768px) {
+  .name-container .name {
+    font-size: 1050%;
+  }
+}
+
 .name-container .title {
   color: #fcfcfc;
   text-align: center;
